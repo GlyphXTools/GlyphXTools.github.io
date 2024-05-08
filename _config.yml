@@ -1,0 +1,5 @@
+# GitHub pages configuration
+
+markdown: GFM
+
+theme: jekyll-theme-cayman
