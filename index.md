@@ -24,6 +24,7 @@ This is the unofficial collection of modding tools for [Petroglyph Games](https:
 
 ## File formats
 * [ALO model format](file-formats/alo-model-format.md)
+* [ALA animation format](file-formats/ala-animation-format.md)
 * [DAT format](file-formats/dat-format.md)
 * [LUA format](file-formats/lua-format.md)
 * [MEG format](file-formats/meg-format.md)
