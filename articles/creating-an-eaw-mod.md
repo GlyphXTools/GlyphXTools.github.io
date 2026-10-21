@@ -19,7 +19,7 @@ Using the example above, your modified Audio.xml would go into C:\Program Files\
 ## Conclusion
 To summarize, if the game wants to load file X, it will look for X in the following places, in this order:
 
-1. The `MODPAT`H directory, if specified.
+1. The `MODPATH` directory, if specified.
 1. The directory where the game executable resides.
 1. All Mega Files specified in `Data\MegaFiles.xml`
 
