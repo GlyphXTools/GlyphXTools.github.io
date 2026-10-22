@@ -2,6 +2,8 @@
 
 This is the unofficial collection of modding tools for [Petroglyph Games](https://petroglyphgames.com/)'s GlyphX game engine.
 
+Visit us on GitHub at [github.com/GlyphXTools](https://github.com/GlyphXTools).
+
 ## Modding tools
 * [ALO Viewer](https://github.com/GlyphXTools/alo-viewer)
 * [Particle Editor](https://github.com/GlyphXTools/particle-editor)
