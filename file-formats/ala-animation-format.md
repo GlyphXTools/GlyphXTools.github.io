@@ -95,7 +95,7 @@ This format contains the following changes respective to format #1:
   13: dword scaleFrameSize        # new
   ```
   The three new mini-chunks define the number of 16-bit integers in each frame for the rotation, translation and scale data, respectively.
-  
+
 - Chunk types `0x1004`, `0x1005`, and `0x1006` are removed.
 
 - Chunk type `0x1003` is extended and is now:
@@ -107,9 +107,9 @@ This format contains the following changes respective to format #1:
   08: float3 scaleOffset
   09: float3 scaleScale
   10: uint32 unknown
-  14: uint32 translationIndex   # new
-  15: uint32 scaleIndex         # new
-  16: uint32 rotationIndex      # new
+  14: uint16 translationIndex   # new
+  15: uint16 scaleIndex         # new
+  16: uint16 rotationIndex      # new
   17: int16[4] defaultRotation  # new
   ```
   The four new mini-chunks at the end hold the index of the bone's translation, scale and rotation data in each frame's block in the new `0x1009`, `0x100a` and `0x100b` chunks, respectively.
